@@ -16,10 +16,10 @@ int main(){
 
 
     std::set<int> lotto_nums;
-
-    for(int i = 0; i < 6; i++){
+        
+    while(lotto_nums.size() < 6){
         lotto_nums.insert(lotto(mt));
-    }
+    }    
 
     for(auto it = lotto_nums.begin(); it !=lotto_nums.end(); it++){
         std::cout<<*it<< " ";
