@@ -1,7 +1,32 @@
-seria_6/-3
-seria_6/3
-.vscode/settings.json
-seria_6/run.exe
-seria_6/text2.txt
-seria_4/run
-seria_6/run
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
